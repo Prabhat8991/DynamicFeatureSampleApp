@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "DynamicFeatureSampleApp"
 include(":app")
- 
+include(":sampledynamicfeature")
