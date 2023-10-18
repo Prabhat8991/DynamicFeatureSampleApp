@@ -8,6 +8,22 @@
         <dist:delivery>
             <dist:on-demand />
         </dist:delivery>
+
         <dist:fusing dist:include="true" />
     </dist:module>
+
+    <application>
+        <activity
+            android:name=".DynamicFeatureActivity"
+            android:exported="true"
+            android:label="@string/title_activity_dynamic_feature"
+            android:theme="@style/Theme.DynamicFeatureSampleApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
 </manifest>
