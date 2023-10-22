@@ -3,6 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:startDestination="@id/dynamic_nav_graph"
     android:id="@+id/main_nav">
+    <action
+        android:id="@+id/navigate_to_dynamic_feature"
+        app:destination="@id/dynamic_nav_graph"/>
     <include-dynamic
         android:id="@+id/dynamic_nav_graph"
         app:moduleName="sampledynamicfeature"
