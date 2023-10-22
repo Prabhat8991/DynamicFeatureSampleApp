@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/dynamic_nav_graph"
+    android:id="@+id/main_nav">
+    <include-dynamic
+        android:id="@+id/dynamic_nav_graph"
+        app:moduleName="sampledynamicfeature"
+        app:graphResName="dynamic_nav_graph"
+        app:graphPackage="com.example.dynamicfeaturesampleapp.sampledynamicfeature"
+        />
+</navigation>

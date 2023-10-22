@@ -33,7 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    dynamicFeatures += setOf(":sampledynamicfeature", ":sampledynamicfeature")
+    dynamicFeatures += setOf(":sampledynamicfeature")
 }
 
 dependencies {
